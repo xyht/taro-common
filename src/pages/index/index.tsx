@@ -5,30 +5,30 @@ import { IndexProps, IndexState } from './index.interface'
 import './index.scss'
 
 @connect(({ index }) => ({
-  ...index,
+    ...index,
 }))
 
 class Index extends Component<IndexProps, IndexState> {
-  config: Config = {
-    navigationBarTitleText: 'Taro + dva demo'
-  }
+    config: Config = {
+        navigationBarTitleText: 'Taro + dva demo'
+    }
 
-  componentDidMount() {
-    const { dispatch } = this.props;
-    dispatch({
-      type: 'index/setText',
-      payload: 'like',
-    });
-  }
+    componentDidMount() {
+        const { dispatch } = this.props;
+        dispatch({
+            type: 'index/setText',
+            payload: 'like',
+        });
+    }
 
-  render() {
-    const { text } = this.props
-    return (
-      <View className='fx-index-wrap'>
-        <Text>{text}</Text>
-      </View>
-    )
-  }
+    render() {
+        const { text } = this.props
+        return (
+            <View className='fx-index-wrap'>
+                <Text>{text}</Text>
+            </View>
+        )
+    }
 }
 
 export default Index

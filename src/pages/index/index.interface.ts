@@ -5,8 +5,8 @@
  * @interface IndexState
  */
 export interface IndexState {
-  month: number
-  day: number
+    month: number
+    day: number
 }
 
 /**
@@ -16,18 +16,18 @@ export interface IndexState {
  * @interface IndexProps
  */
 export interface IndexProps {
-  dispatch?: any,
-  data?: Array<DataInterface>,
-  text: string
+    dispatch?: any,
+    data?: Array<DataInterface>,
+    text: string
 }
 
 export interface DataInterface {
-  day: number
-  des: string
-  lunar: string
-  month: number
-  pic: string
-  title: string
-  year: number
-  _id?: string
+    day: number
+    des: string
+    lunar: string
+    month: number
+    pic: string
+    title: string
+    year: number
+    _id?: string
 }

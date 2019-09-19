@@ -31,7 +31,7 @@ export const MAINHOST = ONLINEHOST
  * 全局的分享信息 不用每一个都去写
  */
 export const SHAREINFO = {
-  'title': '分享标题',
-  'path': '路径',
-  'imageUrl': '图片'
+    'title': '分享标题',
+    'path': '路径',
+    'imageUrl': '图片'
 }
