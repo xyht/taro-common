@@ -163,5 +163,6 @@ export class Request {
 
 // 导出
 const Api = Request.getApiList(requestConfig)
+// @ts-ignore：$api
 Component.prototype.$api = Api
 export default Api as any
