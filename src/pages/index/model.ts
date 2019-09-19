@@ -5,7 +5,7 @@ export default {
     namespace: 'index',
     state: {
         data: [],
-        text: 'text'
+        text: ''
     },
 
     effects: {

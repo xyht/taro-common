@@ -19,7 +19,7 @@ class Index extends Component<IndexProps, IndexState> {
         const { dispatch } = this.props;
         dispatch({
             type: 'index/setText',
-            payload: 'like',
+            payload: 'hello world',
         });
     }
     // 初始化录音
