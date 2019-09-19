@@ -18,7 +18,7 @@ export interface IndexState {
 export interface IndexProps {
     dispatch?: any,
     data?: Array<DataInterface>,
-    text: string
+    text?: string
 }
 
 export interface DataInterface {
