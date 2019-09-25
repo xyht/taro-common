@@ -11,7 +11,7 @@ import './index.scss'
 
 class Index extends Component<IndexProps, IndexState> {
     config: Config = {
-        navigationBarTitleText: 'Taro + dva demo'
+        navigationBarTitleText: 'Taro'
     }
 
     componentDidMount() {
